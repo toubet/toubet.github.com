@@ -1291,7 +1291,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #74ff61;
+  background: #9fb03b;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2923,4 +2923,21 @@ body {
 */
 .post-body .note {
   border-radius: 15px;
+}
+.menu .menu-item .badge {
+  background: #03c5bf;
+  color: #04558c;
+}
+.btn {
+  margin-bottom: 20px;
+  border-radius: 0.5em;
+}
+.post-body .tabs ul.nav-tabs li.tab.active,
+.tabs-comment ul.nav-tabs li.tab.active {
+  border-bottom: 1px solid transparent;
+  border-left: 3px solid #fc6423;
+  border-right: 3px solid #fc6423;
+  border-top: 3px solid #fc6423;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
 }
